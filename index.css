@@ -179,7 +179,6 @@ footer {
 
 footer a {
   font-size: 1.2rem;
-  text-transform: uppercase;
 }
 
 @media (min-width: 768px){
