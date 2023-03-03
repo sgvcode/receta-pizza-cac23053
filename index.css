@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Montserrat:wght@200;400;700&family=Qwitcher+Grypen:wght@700&display=swap');
 
 :root {
-  --rojo: crimson;
+  --rojo: rgb(255, 38, 0);
   --verde: rgba(19, 170, 26, 0.959);
   --white: white;
   --white-transp: rgb(240, 231, 215);
