@@ -1,7 +1,7 @@
 # receta-pizza-cac23053
 Desafío clase web con receta de pizza italiana #HTML + #CSS
 
-#Screeshots
+#Screenshots
 
 ![375](https://user-images.githubusercontent.com/106033066/222773967-63aed04f-6bb9-4667-9898-dcf6976fbec6.png)
 
