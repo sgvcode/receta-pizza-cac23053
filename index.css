@@ -43,7 +43,7 @@ a:hover {
 
 h1, h2 {
   font-family: 'Birthstone Bounce', cursive;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
   margin: 3rem 0 2rem;
   font-weight: 400;
 }
@@ -51,6 +51,7 @@ h1, h2 {
 h1 {
   font-size: 4rem;
   color: var(--verde);
+  font-weight: bold;
 }
 
 span.color--blanco {
