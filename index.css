@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Montserrat:wght@200;400;700&family=Qwitcher+Grypen:wght@700&display=swap');
+
+:root {
+  --rojo: crimson;
+  --verde: rgba(19, 170, 26, 0.959);
+  --white: white;
+  --white-transp: rgb(240, 231, 215);
+  --marron:#19100bcc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #19100B;
+  color: var(--white);
+  text-align: center;
+  background-attachment: fixed;
+  background-image: url('images/background-pizza.webp');
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: var(--white-transp);
+}
+
+h1, h2 {
+  font-family: 'Birthstone Bounce', cursive;
+  letter-spacing: .2rem;
+  margin: 3rem 0 2rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--verde);
+}
+
+span.color--blanco {
+  color: white;
+}
+span.color--rojo {
+  color: var(--rojo);
+}
+
+h2 {
+  color: var(--white);
+  font-size: 3rem;
+  letter-spacing: .1rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: var(--white-transp);
+  margin-bottom: 1rem;
+}
+
+main.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #19100bcc;
+}
+.imagen__mobile {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 768px;
+}
+
+.imagen__desktop {
+  display: none;
+}
+
+section {
+  width: 85%;
+}
+
+i {
+  color: var(--verde);
+  font-size: 2.5rem;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.receta__ingredientes {
+  display: flex;
+  justify-content: center;
+  border: 1px dashed var(--rojo);
+  padding: 2rem 0;
+  min-width: 320px;
+  margin: auto;
+}
+
+li {
+  text-align: left;
+  list-style: none;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: var(--white-transp);
+}
+
+li i {
+  font-size: 1.7rem;
+  margin-right: 10px;
+  color: var(--rojo);
+}
+
+.preparacion ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.preparacion__detalle h2 {
+  padding-top: 2rem;
+}
+
+.preparacion__detalle li {
+  list-style: decimal;
+  font-size: 1.5rem;
+  width: 80%;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+button {
+  display: block;
+  background-color: transparent;
+  color: var(--white-transp);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 1px solid var(--white-transp);
+  margin: 5rem auto;
+  padding: 1rem 1.5rem;
+  width: 18rem;
+  height: auto;
+  border-radius: 3rem;
+  transition: all .4s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--white-transp);
+  color: var(--marron);
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  background-color:var(--marron);
+  padding: 2rem;
+  border-top: 1px dashed var(--white-transp);
+}
+
+footer a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px){
+  .imagen__mobile {
+    display: none;
+  }
+  .imagen__desktop {
+    display: block;
+    width: 100%;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    min-width: 60rem;
+    max-width: 100rem;
+    font-size: 1.8rem;
+  }
+
+  .receta__ingredientes {
+    max-width: 60rem;
+  }
+
+  .receta__ingredientes li {
+    font-size: 1.8rem;
+  }
+
+  li i{
+    margin-right: 1.2rem;
+  }
+
+  .preparacion ol {
+    max-width: 120rem;
+  }
+
+  .preparacion li {
+    font-size: 1.8rem;
+  }
+}
