@@ -45,13 +45,16 @@ h1, h2 {
   font-family: 'Birthstone Bounce', cursive;
   letter-spacing: .1rem;
   margin: 3rem 0 2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h1 {
   font-size: 4rem;
   color: var(--verde);
-  font-weight: bold;
+}
+
+span {
+  font-weight: 500;
 }
 
 span.color--blanco {
