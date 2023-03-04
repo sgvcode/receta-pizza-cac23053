@@ -41,6 +41,11 @@ a:hover {
   color: var(--white-transp);
 }
 
+b {
+  font-weight: 500;
+  font-style: italic;
+}
+
 h1, h2 {
   font-family: 'Birthstone Bounce', cursive;
   letter-spacing: .1rem;
