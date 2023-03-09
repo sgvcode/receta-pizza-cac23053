@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Montserrat:wght@200;400;700&family=Qwitcher+Grypen:wght@700&display=swap');
 
 :root {
-  --rojo: rgb(255, 38, 0);
-  --verde: rgba(19, 170, 26, 0.959);
+  --rojo: tomato;
+  --verde: rgba(102, 211, 107, 0.959);
   --white: white;
   --white-transp: rgb(240, 231, 215);
   --marron:#19100bcc;
@@ -232,3 +232,28 @@ footer a {
     font-size: 1.8rem;
   }
 }
+
+/* Decoraciones */
+
+.sub{
+  text-decoration:underline wavy green;
+  text-transform: uppercase;
+}
+
+.menu ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu li a{
+  font-size: 1.4rem;
+  margin: 0 1.5rem;
+  color: var(--white-transp);
+  text-transform: uppercase;
+}
+
+.menu li a:hover {
+  color: var(--verde);
+}
+
