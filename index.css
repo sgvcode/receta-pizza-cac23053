@@ -306,6 +306,7 @@ footer a {
   width: 100%;
   transition: all .5s ease-in-out;
   border-radius: 2rem;
+  border: 1px dashed var(--white-transp);
 }
 
 .img__grid:hover {
