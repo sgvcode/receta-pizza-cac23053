@@ -6,7 +6,7 @@
   --verde: rgba(102, 211, 107, 0.959);
   --white: white;
   --white-transp: rgb(240, 231, 215);
-  --marron:#19100bcc;
+  --marron:#000000d3;
 }
 
 * {
@@ -23,13 +23,13 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-  height: 100vh;
-  background-color: #19100B;
+  min-height: 100vh;
   color: var(--white);
   text-align: center;
   background-attachment: fixed;
   background-image: url('images/background-pizza.webp');
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 a {
@@ -88,7 +88,8 @@ main.container {
   align-items: center;
   justify-content: center;
   margin: auto;
-  background-color: #19100bcc;
+  min-height: 100vh;
+  background-color: var(--marron);
 }
 .imagen__mobile {
   margin: 0 auto;
@@ -170,6 +171,7 @@ button {
   width: 18rem;
   height: auto;
   border-radius: 3rem;
+  cursor: pointer;
   transition: all .4s ease-in-out;
 }
 
@@ -188,6 +190,7 @@ footer {
 
 footer a {
   font-size: 1.2rem;
+  
 }
 
 @media (min-width: 768px){
@@ -233,22 +236,43 @@ footer a {
   }
 }
 
-/* Decoraciones */
-
 .sub{
   text-decoration:underline wavy green;
   text-transform: uppercase;
+}
+
+.menu {
+  padding: .5rem 3rem;
+  width: 100%;
+  border-bottom: 3px dashed var(--rojo);
+  background-color: var(--marron);
 }
 
 .menu ul {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.menu li a{
-  font-size: 1.4rem;
-  margin: 0 1.5rem;
+.menu li{
+  text-transform: uppercase;
+  margin: 0 2rem;
+  color: var(--white-transp);
+  font-size: 2rem;
+}
+
+.menu i {
+  color: var(--white-transp);
+  font-size: 2rem;
+}
+.menu i:hover{
+  color: var(--verde)
+}
+
+.menu li a {
+  text-align: center;
+  font-weight: bold;
   color: var(--white-transp);
   text-transform: uppercase;
 }
@@ -257,3 +281,42 @@ footer a {
   color: var(--verde);
 }
 
+.menu li a:active {
+  color: var(--rojo);
+}
+
+.texto__inicio {
+  margin-top: 4rem;
+}
+
+.titulo {
+  color: var(--white)
+}
+
+.grid__recetas {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 90%;
+  max-width: 960px;
+}
+
+.img__grid {
+  width: 100%;
+  transition: all .5s ease-in-out;
+  border-radius: 2rem;
+}
+
+.img__grid:hover {
+  filter: brightness(120%);
+}
+
+.img__recetas {
+  margin-bottom: 10px;
+  transition: all .3s ease-in-out;
+}
+
+.img__recetas:hover {
+  transform: scale(105%);
+}
