@@ -150,10 +150,14 @@ i {
   max-width: 960px;
 }
 
+.img__recetas span {
+  font-size: 1.1rem;
+}
+
 .img__grid {
   width: 100%;
   transition: all .5s ease-in-out;
-  border-radius: 2rem;
+  border-radius: 50%;
   border: 1px dashed var(--white-transp);
 }
 
@@ -172,8 +176,13 @@ i {
 
 .texto__inicio p {
   padding-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.rem;
+  font-style: italic;
   line-height: 3.5rem;
+}
+
+.sub--index {
+  color: var(--verde);
 }
 
 /* Sección RECETAS */
