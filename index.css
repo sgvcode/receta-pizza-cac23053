@@ -159,7 +159,7 @@ i {
 }
 
 .img__grid:hover {
-  filter: brightness(120%);
+  border: none;
 }
 
 .img__recetas {
@@ -168,7 +168,8 @@ i {
 }
 
 .img__recetas:hover {
-  transform: scale(105%);
+  transform: scale(110%);
+  filter: brightness(120%);
 }
 
 .texto__inicio p {
@@ -231,7 +232,7 @@ i {
   display: flex;
   justify-content: center;
   border: 1px dashed var(--rojo);
-  border-radius: 1;
+  border-radius: 1rem;
   padding: 2rem 0;
   min-width: 325px;
   margin: auto;
