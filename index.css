@@ -229,6 +229,7 @@ i {
   display: flex;
   justify-content: center;
   border: 1px dashed var(--rojo);
+  border-radius: 1rem;
   padding: 2rem 0;
   min-width: 320px;
   margin: auto;
