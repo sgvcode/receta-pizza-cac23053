@@ -7,11 +7,6 @@ https://receta-pizza-italiana.onrender.com
 
 #Screenshots 🖥️📱
 
-![index html](https://user-images.githubusercontent.com/106033066/224460140-99fbae6c-ee3f-4601-a056-2310d2bbd178.png)
 
-![index html1](https://user-images.githubusercontent.com/106033066/224460144-f46ec45e-f86a-4eb5-ac04-7b104298065b.png)
-
-
-![375](https://user-images.githubusercontent.com/106033066/222801361-4dabb60d-4454-4593-9875-b99770ade795.png)
-
-![14401](https://user-images.githubusercontent.com/106033066/222801242-4a5815bb-41e0-4a6f-99a5-edff02c0fbdc.png)
+![index1440px](https://user-images.githubusercontent.com/106033066/224566466-89f7eab0-00f4-4578-b249-7789a4c0e776.png)
+![index380px](https://user-images.githubusercontent.com/106033066/224566468-dc123fa9-ee5b-43e7-b879-36928b9128d6.png)
