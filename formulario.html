@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Pizza Italiana - Recetas fáciles</title>
+</head>
+
+<body>
+  <main class="container">
+
+    <head>
+      <img class="imagen__mobile" src="/images/nueva-formulario-mobile.webp" alt="Imagen Encabezado">
+      <img class="imagen__desktop" src="images/nueva-formulario-desktop.webp" alt="Imagen Encabezado">
+      <nav class="menu">
+        <ul>
+          <li id="home"><a href="index.html"><i class="fa-solid fa-house"></i>Todas las recetas</a></li>
+        </ul>
+      </nav>
+    </head>
+    
+    <section class="formulario">
+      <h2>Envianos tu Receta Fácil</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Tu Nombre</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Tu Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="title">Título de la receta</label>
+          <input type="text" id="title" name="title" required>
+        </div>
+        <div class="form-group">
+          <label for="ingredients">Ingredientes</label>
+          <textarea id="ingredients" name="ingredients" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="preparation">Preparación</label>
+          <textarea id="preparation" name="preparation" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="image">Adjuntar imagen</label>
+          <input type="file" id="image" name="image">
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+
+    <footer>
+      <div>2023 - by <a href="https://github.com/sgvcode">SGVcode {cac23053}</a></div>
+    </footer>
+  </main>
+
+  <script src="https://kit.fontawesome.com/ad22120107.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
