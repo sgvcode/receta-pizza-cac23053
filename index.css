@@ -109,10 +109,6 @@ main.container {
   display: none;
 }
 
-section {
-  width: 85%;
-}
-
 i {
   color: var(--verde);
   font-size: 2.5rem;
@@ -122,6 +118,7 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 85%;
 }
 
 .sub{
@@ -306,22 +303,26 @@ footer a {
   font-size: 1.2rem;
 }
 
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Formulario de ENVIO */
-.formulario {
+/* .formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+} */
+
+.formulario {
+  width: 90%;
 }
 
 .formulario h2 {
-  margin: 6rem 0 4rem;
-}
-
-form {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
+  margin: 4rem 0;
 }
 
 .form-group {
@@ -407,7 +408,7 @@ textarea {
     gap: 20px;
   }
 
-  form {
+  .formulario {
     max-width: 700px;
     margin: 0 auto;
   }
