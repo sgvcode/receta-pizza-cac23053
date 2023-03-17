@@ -6,11 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Recetas Fáciles para tu cocina</title>
 </head>
 
 <body>
-  <main class="container">
+  <main class="container" id="arriba">
 
     <header>
       <img class="imagen__mobile" src="/images/nueva-home-mobile.webp" alt="Imagen Encabezado">
@@ -24,7 +25,7 @@
         más feliz.</p>
     </section>
 
-    <h1 class="titulo">Nuestras Recetas</span></h1>
+    <h1 class="titulo">Nuestras recetas</span></h1>
 
     <nav class="grid__recetas">
       <span class="recetas__img">
@@ -48,11 +49,19 @@
       </span>
     </nav>
 
-    <a href="formulario.html"><button>Envianos tu receta</button></a>
+    <section>
+      <h3>Compartí tus recetas</h3>
+      <p>Si tienes una receta deliciosa y fácil de preparar que te gustaría compartir con la comunidad, por favor utiliza el botón de abajo para enviarla. ¡Estoy emocionado de ver lo que todos tienen para ofrecer y de hacer crecer nuestra colección de recetas juntos!</p>
+      <a href="formulario.html"><button><i class="btn fa-solid fa-share-nodes"></i>Envianos tu receta</button></a>
+    </section>
 
     <footer>
       <div>2023 - by <a href="https://github.com/sgvcode">SGVcode {cac23053}</a></div>
     </footer>
+
+    <button class="ir__arriba">
+      <a href="#arriba"><i class="btn__arriba fa-solid fa-chevron-up"></i></a>
+    </button>
   </main>
 
   <script src="https://kit.fontawesome.com/ad22120107.js" crossorigin="anonymous"></script>
