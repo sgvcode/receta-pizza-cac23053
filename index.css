@@ -157,6 +157,7 @@ i {
 
 .img__grid:hover {
   border: none;
+  border: 3px dashed var(--white-transp);
 }
 
 .recetas__img {
@@ -249,6 +250,10 @@ li i {
   color: var(--rojo);
 }
 
+.preparacion {
+  width: 100%;
+  padding: 0 2rem;
+}
 .preparacion ol {
   display: flex;
   flex-direction: column;
@@ -376,6 +381,10 @@ textarea {
     font-size: 1.8rem;
   }
 
+  .receta {
+    width: 100%;
+  }
+
   .receta__ingredientes {
     max-width: 60rem;
   }
@@ -394,6 +403,7 @@ textarea {
 
   .preparacion li {
     font-size: 1.8rem;
+    max-width: 96rem;
   }
 
   .recetas__img span {
