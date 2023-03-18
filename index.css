@@ -195,7 +195,7 @@ nav{
 }
 
 .menu {
-  padding: .5rem 3rem;
+  padding: 1rem 3rem;
   width: 100%;
   border-bottom: 1px dashed var(--rojo);
   border-top: 1px dashed var(--rojo);
@@ -206,12 +206,12 @@ nav{
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .menu li{
   text-transform: uppercase;
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
   color: var(--white-transp);
   font-size: 1.6rem;
 }
@@ -369,23 +369,27 @@ textarea {
   margin-right: 1rem;
 }
 
-button.ir__arriba{
-  width: 3.5rem;
-  height: 3.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: -4rem;
-  right: 1rem;
-}
-
-.btn__arriba {
+.btn__up {
   color: var(--rojo);
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  cursor: pointer;
+  font-size: 4rem;
+  border: none;
 }
 
-.btn__arriba:hover {
+.btn__up:hover {
   color: var(--verde);
+}
+
+.ir__arriba {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 768px){
@@ -408,6 +412,14 @@ button.ir__arriba{
     min-width: 60rem;
     max-width: 100rem;
     font-size: 1.8rem;
+  }
+
+  .menu ul {
+    justify-content: center;
+  }
+
+  .menu li {
+    margin: 0 4rem;
   }
 
   .receta {
@@ -451,5 +463,10 @@ button.ir__arriba{
   .formulario {
     max-width: 700px;
     margin: 0 auto;
+  }
+
+  .btn__up {
+    bottom: 2rem;
+    right: 3rem;
   }
 }
