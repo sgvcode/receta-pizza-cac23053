@@ -211,9 +211,8 @@ nav{
 
 .menu li{
   text-transform: uppercase;
-  /* margin: 0 2rem; */
   color: var(--white-transp);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .menu li a {
@@ -232,7 +231,7 @@ nav{
 
 .menu i {
   color: var(--white-transp);
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .menu i:hover{
   color: var(--verde)
