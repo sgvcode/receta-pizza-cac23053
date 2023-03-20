@@ -242,7 +242,7 @@ nav{
   justify-content: center;
   border: 1px dashed var(--rojo);
   border-radius: 1rem;
-  padding: 2rem 0;
+  padding: 2rem 1.8rem;
   min-width: 325px;
   margin: auto;
 }
