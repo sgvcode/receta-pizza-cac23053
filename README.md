@@ -1,10 +1,6 @@
 # sitio de recetas cac23053
 Desafío clase web #HTML + #CSS
 
-
-#Online site 🌎
-https://receta-pizza-italiana.onrender.com
-
 #Screenshots 🖥️📱
 
 
